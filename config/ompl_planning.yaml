@@ -1,3 +1,5 @@
+maximum_waypoint_distance: 0.2
+
 planner_configs:
   SBL:
     type: geometric::SBL
