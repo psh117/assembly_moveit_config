@@ -16,7 +16,7 @@ hardware_interface:
     - panda_left_joint5
     - panda_left_joint6
     - panda_left_joint7
-    - panda_left_finger_joint1
+    - panda_left_finger_joint
     - panda_right_joint1
     - panda_right_joint2
     - panda_right_joint3
@@ -24,7 +24,7 @@ hardware_interface:
     - panda_right_joint5
     - panda_right_joint6
     - panda_right_joint7
-    - panda_right_finger_joint1
+    - panda_right_finger_joint
   sim_control_mode: 1  # 0: position, 1: velocity
 # Publish all joint states
 # Creates the /joint_states topic necessary in ROS

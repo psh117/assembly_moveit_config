@@ -19,7 +19,7 @@ controller_list:
       - panda_right_joint7
   - name: fake_hand_left_controller
     joints:
-      - panda_left_finger_joint1
+      - panda_left_finger_joint
   - name: fake_hand_right_controller
     joints:
-      - panda_right_finger_joint1
+      - panda_right_finger_joint

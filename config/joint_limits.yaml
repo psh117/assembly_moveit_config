@@ -2,14 +2,9 @@
 # Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
-  panda_left_finger_joint1:
+  panda_left_finger_joint:
     has_velocity_limits: true
-    max_velocity: 0.2
-    has_acceleration_limits: false
-    max_acceleration: 0
-  panda_left_finger_joint2:
-    has_velocity_limits: true
-    max_velocity: 0.2
+    max_velocity: 1000000
     has_acceleration_limits: false
     max_acceleration: 0
   panda_left_joint1:
@@ -47,14 +42,9 @@ joint_limits:
     max_velocity: 2.61
     has_acceleration_limits: false
     max_acceleration: 0
-  panda_right_finger_joint1:
+  panda_right_finger_joint:
     has_velocity_limits: true
-    max_velocity: 0.2
-    has_acceleration_limits: false
-    max_acceleration: 0
-  panda_right_finger_joint2:
-    has_velocity_limits: true
-    max_velocity: 0.2
+    max_velocity: 1000000
     has_acceleration_limits: false
     max_acceleration: 0
   panda_right_joint1:
