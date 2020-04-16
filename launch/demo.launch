@@ -28,12 +28,19 @@
 
   <!-- If needed, broadcast static tf for robot root -->
   
-
   <!-- We do not have a robot connected, so publish fake joint states -->
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="use_gui" value="$(arg use_gui)"/>
     <remap from="/joint_states" to="/panda_dual/joint_states" />
     <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+    <rosparam>
+    zeros:
+        panda_left_joint6: 1.570796
+        panda_left_joint7: 0.785398
+        panda_right_joint6: 1.570796
+        panda_right_joint7: 0.785398
+        panda_left_finger_joint: 0.08
+        panda_right_finger_joint: 0.08</rosparam>
   </node>
 
   <!-- Given the published joint states, publish tf for the robot links -->
