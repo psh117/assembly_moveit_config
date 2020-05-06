@@ -19,7 +19,7 @@
   <arg name="launch_rviz" default="true" />
 
   <include file="$(find assembly_moveit_config)/launch/move_group.launch">
-    <arg name="allow_trajectory_execution" value="false"/>
+    <arg name="allow_trajectory_execution" value="true"/>
     <arg name="fake_execution" value="false"/>
     <arg name="info" value="true"/>
     <arg name="debug" value="$(arg debug)"/>

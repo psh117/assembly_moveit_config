@@ -32,8 +32,8 @@ joint_state_controller:
   type: joint_state_controller/JointStateController
   publish_rate: 50
 controller_list:
-  - name: panda_left_controller
-    action_ns: follow_joint_trajectory
+  - name: assembly_dual_controller
+    action_ns: joint_trajectory_control
     default: True
     type: FollowJointTrajectory
     joints:
@@ -44,11 +44,6 @@ controller_list:
       - panda_left_joint5
       - panda_left_joint6
       - panda_left_joint7
-  - name: panda_right_controller
-    action_ns: follow_joint_trajectory
-    default: True
-    type: FollowJointTrajectory
-    joints:
       - panda_right_joint1
       - panda_right_joint2
       - panda_right_joint3
@@ -56,15 +51,3 @@ controller_list:
       - panda_right_joint5
       - panda_right_joint6
       - panda_right_joint7
-  - name: hand_left_controller
-    action_ns: follow_joint_trajectory
-    default: True
-    type: FollowJointTrajectory
-    joints:
-      []
-  - name: hand_right_controller
-    action_ns: follow_joint_trajectory
-    default: True
-    type: FollowJointTrajectory
-    joints:
-      []
