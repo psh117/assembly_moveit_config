@@ -1,4 +1,4 @@
-maximum_waypoint_distance: 0.2
+maximum_waypoint_distance: 0.05
 
 planner_configs:
   SBL:
