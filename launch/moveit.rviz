@@ -15,7 +15,7 @@ Panels:
         - /TF1/Frames1
         - /TF1/Tree1
       Splitter Ratio: 0.4784482717514038
-    Tree Height: 729
+    Tree Height: 787
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -524,6 +524,10 @@ Visualization Manager:
         All Enabled: false
         base:
           Value: false
+        panda_left_EE:
+          Value: true
+        panda_left_K:
+          Value: true
         panda_left_hand:
           Value: true
         panda_left_leftfinger:
@@ -548,6 +552,10 @@ Visualization Manager:
           Value: false
         panda_left_rightfinger:
           Value: false
+        panda_right_EE:
+          Value: true
+        panda_right_K:
+          Value: true
         panda_right_finger_left_link:
           Value: false
         panda_right_finger_right_link:
@@ -588,6 +596,9 @@ Visualization Manager:
                       panda_left_link6:
                         panda_left_link7:
                           panda_left_link8:
+                            panda_left_EE:
+                              panda_left_K:
+                                {}
                             panda_left_hand:
                               panda_left_leftfinger:
                                 {}
@@ -602,6 +613,9 @@ Visualization Manager:
                       panda_right_link6:
                         panda_right_link7:
                           panda_right_link8:
+                            panda_right_EE:
+                              panda_right_K:
+                                {}
                             panda_right_hand:
                               panda_right_finger_left_link:
                                 {}
@@ -648,7 +662,7 @@ Visualization Manager:
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1025
+  Height: 1052
   Help:
     collapsed: false
   Hide Left Dock: false
@@ -657,9 +671,9 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd00000001000000000000030500000399fc0200000006fb0000000800480065006c00700000000342000000bb0000008400fffffffb0000000a0056006900650077007300000003b0000000b0000000c200fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004d00fffffffc00000047000003990000020801000023fa000000000100000002fb000000100044006900730070006c0061007900730100000000ffffffff0000016100fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000000002950000030500ffffff000006b10000039900000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000010000000000000305000003c2fc0200000006fb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a0056006900650077007300000003b0000000b0000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004100fffffffc0000003d000003c2000001b80100001cfa000000000100000002fb000000100044006900730070006c0061007900730100000000ffffffff0000015600fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000000000002950000029500ffffff00000475000003c200000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 2493
-  X: 67
-  Y: 34
+  Width: 1920
+  X: 2560
+  Y: 205
