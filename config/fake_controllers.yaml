@@ -51,7 +51,7 @@ controller_list:
       - panda_top_joint7
   - name: fake_hand_top_controller
     joints:
-      - panda_top_finger_joint1
+      []
   - name: fake_panda_triple_controller
     joints:
       - panda_left_joint1
